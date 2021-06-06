@@ -21,9 +21,7 @@ namespace HomeTask62.Pages
         public LoginPage EntryLoginData(User user)
 
         {
-            //HrefHere.Click();
-            //var wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(5));
-            //wait.Until(x => x.FindElement(By.Name("username")).Displayed);
+  
             UsernameBox.Click();
             UsernameBox.SendKeys(user.Username);
             PasswordBox.Click();
