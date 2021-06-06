@@ -22,10 +22,10 @@ namespace HomeTask62.Tests
             Logger.Info("Test started");
         }
 
-        //  [TearDown]
-        // public virtual void Cleanup()
-        //  {
-        // Driver.Quit();
-        // }
+          [TearDown]
+           public virtual void Cleanup()
+          {
+         Driver.Quit();
+         }
     }
 }
