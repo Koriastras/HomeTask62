@@ -24,7 +24,7 @@ namespace HomeTask62.Framework
             return ConfigurationManager.AppSettings["browserType"];
         }
 
-        public static string GetCsvTable() // если чё, то ошибка тут
+        public static string GetCsvTable() 
         {
             string table = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources/table.csv");
             return table;
