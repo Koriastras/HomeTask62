@@ -14,7 +14,7 @@ namespace HomeTask62.Framework
         }
         public static LoginPage NavigateToLoginPage(IWebDriver driver)
         {
-          // driver.FindElement(By.XPath("//a[@href='http://testingchallenges.thetestingmap.org/login/login.php'] ")).Click();
+       
             driver.Navigate().GoToUrl("http://testingchallenges.thetestingmap.org/login/login.php"); 
             return new LoginPage(driver);
         }
